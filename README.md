@@ -1,4 +1,4 @@
-# <Your-Project-Title>
+# PACKAGE_NAME
 
 ## Description
 

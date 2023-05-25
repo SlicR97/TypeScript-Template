@@ -1,11 +1,12 @@
 {
-  "name": "simple-rules",
+  "name": "@slicr97/PACKAGE_NAME",
   "version": "0.0.1",
   "description": "Simple input validation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepublish": "npx tsc",
+    "prepublish": "rm -rf dist && npx tsc",
+    "build": "rm -rf dist && npx tsc",
     "test": "mocha",
     "cover": "nyc mocha",
     "lint": "eslint . --ext .ts --ext .tsx",
@@ -13,7 +14,7 @@
     "prepare": "husky install",
     "pre-commit": "lint-staged"
   },
-  "repository": "git@github.com:SlicR97/simple-rules.git",
+  "repository": "git@github.com:SlicR97/PACKAGE_NAME.git",
   "author": "Nico Loos",
   "license": "MIT",
   "private": false,
